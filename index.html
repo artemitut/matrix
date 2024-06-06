@@ -4,12 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/icon-font.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="nav_bar"></div>
-    </header>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__toggle" id="navin-toggle" />
+      <label for="navin-toggle" class="navigation__button">
+        <span class="navigation__icon"></span>
+      </label>
+      <div class="navigation__background"></div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">про нас</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">курси</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">замовити консультацію</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">калькулятор матриці</a>
+          </li>
+          <!-- <li class="navigation__item">
+            <a href="#" class="navigation__link">связаться с нами</a>
+          </li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="header">
+        <img
+          class="header__logo"
+          src="./icons/Icon-logo.svg"
+          alt="Логотип повітряна куля"
+        />
+        <div class="header__logo__point"></div>
+        <div class="header__box">
+          <h1 class="title-first">
+            <span class="title-first__main">РОЗБІР МАТРИЦІ ДОЛІ</span>
+            <span class="title-first__second">курс по матриці долі</span>
+            <div class="btn btn_animated btnKatalog" id="btnKatalog">
+              каталог
+            </div>
+          </h1>
+        </div>
+      </div>
+    </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505.2 462.3">
       <title>Ресурс 1</title>
       <g id="Слой_2" data-name="Слой 2">
